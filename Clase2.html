@@ -1,0 +1,132 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<title>Clase 2 </title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<h1>Primer nivel</h1>
+	<h2>Segundo nivel</h2>
+	<h3>Tercer nivel</h3>
+		<p>Lorem <b>ipsum </b>dolor sit amet, <del>consectetur </del>adipisicing <mark>elit.</mark> Cum libero <em>assumenda </em>aperiam? Nobis obcaecati aspernatur illo <i>cupiditate </i>deserunt, illum <strong>porro </strong>vel alias cum <small>eveniet </small>quo laboriosam amet <sub>explicabo quis distinctio</sub>.</p>
+		<br>
+
+	<h6>ultimo nivel</h6>
+	<hr>
+
+
+	<ol>
+	<li>List Item</li>
+	<li>List Item</li>
+	<li>List Item</li>
+	</ol>
+	
+	
+	<table class="table">
+    <caption>Lista de alumnos.</caption>
+    <thead>
+        <tr>
+          <th>#</th>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Usuario</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>1</th>
+          <td>Daniel</td>
+          <td>López</td>
+          <td>@danlopez</td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td>Laura</td>
+          <td>Martinez</td>
+          <td>@lauram</td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td>Simón</td>
+          <td>Luna</td>
+          <td>@simonlunar</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <form action="hola.php" method="post">
+    	<fieldset>
+    		<legend>Talle de remera</legend>
+    <p>
+      <input type="radio" name="size" id="S" value="small" />
+      <label for="S">Small</label>
+    </p>
+    <p>
+      <input type="radio" name="size" id="M" value="medium" />
+      <label for="M">Medium</label>
+    </p>
+    	</fieldset>
+
+
+	<label for="campo nombre">Nombre:</label>
+	<input type="text" name="campo nombre"></input>
+
+	<label for="campo correo">Mail:</label>
+	<input type="email" name="campo correo" placeholder="poner correo"> </input>
+
+	<label for="campo contraseña">Contraseña:</label>
+	<input type="password" name="campo contraseña"></input>
+
+	<input type="radio" name="sexo" id="H" value="hombre" />
+ 	 <label for="hombre">hombre</label>
+ 	 <br>
+ 	 <input type="radio" name="sexo" id="M" value="mujer" />
+ 	 <label for="mujer">mujer</label>
+
+ 	 <input type="submit" value="Enviar formulario"/>
+ 	 <input type="reset" value="Limpiar formulario"/><!--comentarios-->
+ 	 <textarea></textarea>
+
+ 	 <select name="tallas">
+            <optgroup label="Adultos">
+                <option value="L">Large</option>
+                <option value="M">Medium</option>
+                <option value="S">Small</option>
+            </optgroup>
+            <optgroup label="Niños">
+                <option value="L">Large</option>
+                <option value="M">Medium</option>
+                <option value="S">Small</option>
+            </optgroup>
+        </select>
+    </form>
+
+    <a href="http://www.youtube.com">  <!-- link externo-->
+    	YOUTUBE
+    </a>
+
+    <a href="#pie_de_pagina">  <!--interno en pagina -->
+    	pie
+    </a>
+
+     <a href="/contacto.html">  <!--interno en pagina -->
+    	contacto
+	 </a>
+
+	 <video src="videos/tutorial.ogg" controls>
+  Tu navegador no implementa el elemento <code>video</code>.
+	</video>
+
+	<audio controls>
+		<source src="foo.ogg" type="audio/ogg">
+		<source src="foo.mp3" type="audio/mp3">
+	<p>Tu navegador no implementa el elemento audio.</p>
+	</audio>
+	
+</body>
+
+<footer id="pie_de_pagina">
+	<p>trolo</p>
+</footer>
+</html>
